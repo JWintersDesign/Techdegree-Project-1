@@ -76,6 +76,28 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
+header_2 {
+  text-align: center;
+  background: url('images/experience_background.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+header_2 {
+  line-height: 1.5;
+}
+header_2 .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+header_2 .profile-image:hover {
+  transform: scale(1.2) rotate(5deg);
+}
 .tag {
   background-color: #efefef;
   color: black;
